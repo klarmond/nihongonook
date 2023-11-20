@@ -1,0 +1,96 @@
+
+.thread_card{
+    background: #6a2222;
+    /* width: calc(100% - 15rem); */
+    /* margin-left: 11rem; */
+}
+
+.thread_card:hover {
+    background: #5c1b1b;
+}
+
+.comment_card{
+    background: #862e2e;
+    border-left: 1px solid #fff;
+}
+
+.comment_card:hover {
+    background: #782828;
+}
+
+.thread_card,
+.comment_card
+ {
+    /* background-color: #282A3A; */
+    /* background: #9b3a3a; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 300ms all;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+
+.comment_card {
+    margin-left: 2rem;
+}
+
+
+.author_img_link {
+    /* give grid */
+    /* grid-area: img; */
+}
+
+.author_img {
+    border-radius: 50%;
+    /* background-color: #fff; */
+}
+
+.author_name_link {
+    /* give grid */
+    /* grid-area: name; */
+    text-decoration: none;
+    color: #fff;
+}
+
+.author_name {
+ font-size: clamp(1rem,1.5vw,1.5rem);   
+}
+
+
+.author_content {
+    /* give grid */
+    /* grid-area: cont; */
+    font-size: clamp(0.7rem,1vw,1.1rem); 
+    color: #ece2e2;
+    margin-block: 0.5rem;
+}
+
+
+.thread_icon_container {
+
+}
+
+.thread_inner_icons svg{
+    fill: #fff; 
+    opacity: 0.75;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.thread_inner_icons svg:hover {
+    opacity: 1;
+}
+
+.thread_time {
+    font-size: clamp(0.7rem,1vw,1.1rem);
+    color: gray;
+    margin-left: auto;
+}

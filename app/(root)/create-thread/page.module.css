@@ -1,0 +1,13 @@
+.main {
+    position: absolute;
+    top: 0;
+    /* background-color: #211f1f; */
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 14rem;
+    min-height: 100vh;
+    width:50vw;
+    width: calc(100% - 25rem);
+    color: #fff;
+}
+

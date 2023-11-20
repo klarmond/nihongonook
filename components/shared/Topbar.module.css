@@ -1,0 +1,36 @@
+.topbar_container {
+    /* background: #e1ebfc; */
+    background: #933939;
+    /* border-bottom: 1px solid rgb(215, 208, 208); */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 0.7rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;   
+    top: 0;
+}
+
+.topbar_container > * {
+    cursor: pointer;
+}
+
+.topbar_container a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    
+}
+
+.topbar_container p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logout_space {
+    color: #fff;
+}

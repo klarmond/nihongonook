@@ -1,0 +1,33 @@
+.flex_container {
+    margin-left: 6rem;
+}
+
+
+
+.tabs {
+    border-left: 1px solid #000;
+    
+}
+
+.tabs_container {
+    /* border: 100px solid red; */
+    /* margin-left: auto; */
+}
+
+.profileTabs_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    margin-top: 25rem;
+}
+
+
+
+@media (max-width: 565px) {
+    .flex_container {
+        
+        margin-left: 1rem;
+    }
+}
+

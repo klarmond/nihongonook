@@ -1,0 +1,48 @@
+.form_container {
+    position: absolute;
+    top: 0;
+    /* background-color: #211f1f; */
+    margin-top: 10rem;
+    margin-left: 14rem;
+    min-height: 100vh;
+    width:50vw;
+    width: calc(100% - 25rem);
+    text-align: center;
+    
+}
+
+
+.thread_label {
+
+} 
+
+.thread_input {
+    background: #7f3030;
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    color: #fff;
+    line-height: 1.3rem;
+}
+
+.thread_input:focus {
+    outline: none;
+}
+
+.thread_btn {
+    margin-top: 0.5rem;
+    height: 3rem;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    background-color: #2f1717;
+    border: none;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.thread_btn:hover {
+    background-color: #602f2f;
+    transform: scale(1.02);
+}

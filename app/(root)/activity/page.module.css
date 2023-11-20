@@ -1,0 +1,60 @@
+.activity_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: 7rem;
+    color: #fff;
+}
+
+.bars {
+    margin-block: 0.5rem;
+}
+
+.activity_container h1 {
+    margin-bottom: 0.5rem;
+}
+
+.activity_container a {
+    text-decoration: none;
+}
+
+.person_container {
+    background: #832b2b;
+    padding: 1rem 6rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-block: 1rem;
+    transition: 300ms all;
+}
+
+.person_container:hover{
+    background: #712222;
+}
+
+.person_container img {
+    border-radius: 50%;
+}
+
+.person_container a {
+    color: #fff;
+}
+
+.no_activity {
+
+}
+
+
+@media (max-width: 620px) {
+    .activity_container  {
+       margin-left: 4rem;
+    }
+    .person_container {
+        padding: 1rem 4rem;
+    }
+}
