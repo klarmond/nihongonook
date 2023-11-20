@@ -47,7 +47,10 @@ async function Page() {
             ))}
           </>
         ) : (
-          <p className={styles.no_activity}>You have no activity yet.</p>
+          <div className={styles.no_actvity_container}>
+            <p className={styles.no_activity}>You have no activity yet.</p>
+            <p className={styles.no_activity2}>That'll change when you start interacting with others.</p>
+          </div>
         )}
       </section>
     </div>

@@ -20,7 +20,7 @@ async function Page({ params } : { params: { id: string } }) {
 
     // console.log(userInfo)
     return (
-        <section>
+        <section className={styles.profile_container_}>
             <ProfileHeader 
                 accountId={userInfo.id}
                 authUserId={user.id}

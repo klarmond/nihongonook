@@ -1,3 +1,10 @@
+/* .profile_container_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+} */
+
 .flex_container {
     margin-left: 6rem;
 }
@@ -22,7 +29,7 @@
     flex-direction: column;
     margin-left: 5rem;
     margin-right: 1rem;
-    margin-top: 25rem;
+    margin-top: 35rem;
 }
 
 
