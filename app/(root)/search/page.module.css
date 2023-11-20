@@ -8,7 +8,7 @@
 }
 
 .search_container h1 {
-    color: #fff;
+    color: #000;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
 
@@ -16,5 +16,11 @@
     .search_container h1 {
         max-width: 10rem;
         margin-left: -8rem;
+    }
+}
+
+@media (max-height:575px) {
+    .search_container {
+        margin-left: 10rem;
     }
 }

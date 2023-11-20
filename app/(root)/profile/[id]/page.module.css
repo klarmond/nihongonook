@@ -2,6 +2,9 @@
     margin-left: 6rem;
 }
 
+.flex_container h2:first-child {
+    text-align: center;
+}
 
 
 .tabs {
@@ -31,3 +34,8 @@
     }
 }
 
+@media (max-height:575px) {
+    .flex_container {
+        margin-left: 1rem;
+    }
+}

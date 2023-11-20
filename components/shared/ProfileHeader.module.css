@@ -17,15 +17,16 @@
 }
 
 .profile_header_container {
-    background: #8b3636;
-    padding: 1rem 2rem;
+    background: var(--b1);
+    /* padding: 1rem 2rem; */
+    padding: 2rem 4rem;
     border-radius: 1rem;
     cursor: pointer;
     transition: all 300ms;
 }
 
 .profile_header_container:hover {
-    background: #7b2c2c;
+    background: var(--b2);
 }
 
 .profile_img {
@@ -43,7 +44,7 @@
 }
 
 .bio {
-
+    color: rgb(244, 239, 239);
 }
 @media (max-width: 565px) {
     .main_container {

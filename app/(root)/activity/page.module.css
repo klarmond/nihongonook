@@ -4,7 +4,7 @@
     align-items: center;
     margin-left: 12rem;
     margin-top: 7rem;
-    color: #fff;
+    color: #000;
 }
 
 .bars {
@@ -20,9 +20,9 @@
 }
 
 .person_container {
-    background: #832b2b;
+    background: var(--uc1);
     padding: 1rem 6rem;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     border-radius: 0.6rem;
     display: flex;
@@ -34,7 +34,7 @@
 }
 
 .person_container:hover{
-    background: #712222;
+    background: var(--uch);
 }
 
 .person_container img {
@@ -56,5 +56,11 @@
     }
     .person_container {
         padding: 1rem 4rem;
+    }
+}
+
+@media (max-height:575px) {
+    .activity_container {
+        margin-left: 6rem;
     }
 }

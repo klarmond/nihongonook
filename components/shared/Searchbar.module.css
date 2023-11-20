@@ -1,17 +1,20 @@
 .input {
-    padding: 0.9rem 2rem;
-    border-radius: 0.9rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
     border: none;
-    background: #611717;
-    color: #fff;
+    /* background: var(--b3); */
+    color: #000;
     outline: none;
     margin-block: 1rem;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    background-color: var(--s1);
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
 }
 
 
 @media (max-width: 660px) {
     .input {
-        max-width: 10rem;
+        max-width: 15rem;
         margin-left: -8rem;
     }
 }

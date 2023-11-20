@@ -1,29 +1,31 @@
 
 .thread_card{
-    background: #6a2222;
+    /* background: #6a2222; */
     /* width: calc(100% - 15rem); */
     /* margin-left: 11rem; */
+    background-color: #6d8dc407;
 }
 
-.thread_card:hover {
-    background: #5c1b1b;
+.thread_card:hover,
+.comment_card:hover
+ {
+    /* background: #5c1b1b; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.comment_card{
-    background: #862e2e;
+/* .comment_card{
+    
     border-left: 1px solid #fff;
-}
+} */
 
-.comment_card:hover {
-    background: #782828;
-}
+
 
 .thread_card,
 .comment_card
  {
     /* background-color: #282A3A; */
     /* background: #9b3a3a; */
-    color: #fff;
+    color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +37,16 @@
     transition: 300ms all;
     cursor: pointer;
     /* width: 100%; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* background-color: #5f739507; */
 }
 
 
 .comment_card {
     margin-left: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: #5f739507;
 }
 
 
@@ -57,7 +64,7 @@
     /* give grid */
     /* grid-area: name; */
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .author_name {
@@ -69,7 +76,7 @@
     /* give grid */
     /* grid-area: cont; */
     font-size: clamp(0.7rem,1vw,1.1rem); 
-    color: #ece2e2;
+    color: #000;
     margin-block: 0.5rem;
 }
 
@@ -79,7 +86,7 @@
 }
 
 .thread_inner_icons svg{
-    fill: #fff; 
+    fill: #6a7da0; 
     opacity: 0.75;
     transition: 300ms all;
     cursor: pointer;

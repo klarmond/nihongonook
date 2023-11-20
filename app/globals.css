@@ -79,6 +79,20 @@
 html {
   box-sizing: border-box;
   /* letter-spacing: 1px; */
+
+  --bgc:#F3F4F7;
+  --bg2:#ebeef5;
+  /* --bg2:#E6E9EF; */
+  --btn1:#586a89;
+  --btnh1:#303a4b;
+  --b1:#28303e;
+  --b2:#202632;
+  --b3:#384357;
+  --s1:#e8eaef;
+  --uc1:#e0e3ed;
+  --uch:#d1d5e4;
+  /* --bgc:#E6E9EF; */
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -93,10 +107,19 @@ button {
 }
 
 body {
-  background: #112B3C;
-  background: #9c3e3e;
+  /* background: #112B3C;
+  background: #9c3e3e; */
+  background: var(--bgc);
 }
 
 button {
   cursor: pointer;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
 }

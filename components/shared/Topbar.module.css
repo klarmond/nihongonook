@@ -1,6 +1,7 @@
 .topbar_container {
     /* background: #e1ebfc; */
-    background: #933939;
+    /* background: #933939; */
+    background: var(--bg2);
     /* border-bottom: 1px solid rgb(215, 208, 208); */
     display: flex;
     align-items:center;
@@ -28,7 +29,8 @@
 .topbar_container p {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
 }
 
 .logout_space {

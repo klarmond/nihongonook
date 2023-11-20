@@ -14,7 +14,7 @@ const styles = {
     alignItems:"center",
     justifyContent:"center",
     paddingTop:"2rem",
-    backgroundColor:"#9db0cf"
+    // backgroundColor:"#9db0cf"
 }
 
 export default function RootLayout({ 

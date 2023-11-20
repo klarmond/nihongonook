@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Architects_Daughter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import '../globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
 import Topbar from '@/components/shared/Topbar'
@@ -7,9 +7,9 @@ import LeftSidebar from '@/components/shared/LeftSidebar'
 import RightSidebar from '@/components/shared/RightSidebar'
 import Bottombar from '@/components/shared/Bottombar'
 
-const inter = Architects_Daughter({ 
+const inter = Poppins({ 
   subsets: ['latin'],
-  weight: ["400"]
+  weight: ["100","200","300","400", "500","700"]
 })
 
 export const metadata: Metadata = {

@@ -1,14 +1,24 @@
 
 .form_container {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* margin-top: 4rem; */
+    margin-block: 4rem;
 }
 
 
 .comment_img {
+    border-radius: 50%;
+}
 
+.img_and_comment_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -17,31 +27,54 @@
     border: none;
     min-height: 3rem;
     margin-left: 1rem;
-    border-left: 1px solid #74afd6;
-    border-bottom: 1px solid #74afd6;
-    color: #fff;
+    /* border-left: 1px solid #74afd6; */
+    /* border-bottom: 1px solid #74afd6; */
+    color: #000;
     padding-left: 0.5rem;
+    
+    background: #e6e9ef;
+    border: none;
+    border-radius: 1rem;
+    min-width: 20rem;
+    min-height: 4rem;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     
 }
 
 .thread_input:focus {
-    border-left: 1px solid #74afd6;
-    border-bottom: 1px solid #74afd6;
-    background-color: transparent;
+    /* border-left: 1px solid #74afd6; */
+    /* border-bottom: 1px solid #74afd6; */
+    /* background-color: transparent; */
     outline: none;
 }
 
 .thread_btn {
     height: 3rem;
     padding: 1rem 2rem;
-    border-radius: 2rem;
-    background-color: #79bce8;
+    border-radius: 0.5rem;
+    background-color: var(--btn1);
     border: none;
     color: #fff;
     transition: all 300ms;
 }
 
 .thread_btn:hover {
-    background-color: #3782b3;
+    background-color: var(--btnh1);
     transform: scale(1.02);
+}
+
+
+@media (max-width:940px) {
+
+    .img_and_comment_container {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .form_container {
+        justify-content: center;
+    }
 }

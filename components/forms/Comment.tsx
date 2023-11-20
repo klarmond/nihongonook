@@ -59,7 +59,7 @@ const Comment = ({ threadId, currentUserImg, currentUserId }: Props) => {
                 control={form.control}
                 name="thread"
                 render={({ field }) => (
-                    <FormItem>
+                    <FormItem className={styles.img_and_comment_container}>
                     <FormLabel className={styles.thread_label}>
                         <Image src={currentUserImg} width={48} height={48} alt="Profile" className={styles.comment_img}/>
                     </FormLabel>
